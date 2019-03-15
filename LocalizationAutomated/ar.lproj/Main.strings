@@ -7,3 +7,6 @@
 
 /* Class = "UIButton"; normalTitle = "English"; ObjectID = "BCb-rQ-TU4"; */
 "BCb-rQ-TU4.normalTitle" = "الانجليزية";
+
+/* Class = "UIButton"; normalTitle = "Go"; ObjectID = "RYV-f2-eVt"; */
+"RYV-f2-eVt.normalTitle" = "يلا";

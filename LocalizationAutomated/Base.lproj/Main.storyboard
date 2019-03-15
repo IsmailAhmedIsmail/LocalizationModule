@@ -31,6 +31,13 @@
                                     <action selector="didPressEnglish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8yV-Fy-sNh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYV-f2-eVt">
+                                <rect key="frame" x="172.5" y="318.5" width="30" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <segue destination="qpt-v0-dQl" kind="show" id="Vum-vz-Cqu"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tu9-6C-pCz">
                                 <rect key="frame" x="215.5" y="151" width="44" height="30"/>
                                 <state key="normal" title="Arabic"/>
@@ -41,7 +48,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="RYV-f2-eVt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0GV-Sx-XxK"/>
                             <constraint firstItem="tu9-6C-pCz" firstAttribute="centerY" secondItem="BCb-rQ-TU4" secondAttribute="centerY" id="Azu-2O-Tiu"/>
+                            <constraint firstItem="RYV-f2-eVt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CNn-vX-Er1"/>
                             <constraint firstItem="FsN-hF-K8P" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-317" id="MPa-lv-yuM"/>
                             <constraint firstItem="FsN-hF-K8P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Ugt-IF-Ugl"/>
                             <constraint firstItem="BCb-rQ-TU4" firstAttribute="top" secondItem="FsN-hF-K8P" secondAttribute="bottom" constant="50" id="Wbw-Mf-jly"/>
@@ -56,6 +65,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="132.68365817091455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0q0-eF-fxV">
+            <objects>
+                <viewController id="qpt-v0-dQl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xch-yw-Fcb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vQR-3f-Gv2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fcc-zG-Kdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wu9-Bu-jdR">
