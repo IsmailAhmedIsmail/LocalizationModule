@@ -25,7 +25,7 @@ extension Bundle {
     static let once_action : Void = {
         object_setClass(Bundle.main, object_getClass(BundleEx())!)
     }()
-    func setLanguage(language : String) {
+    static func setLanguage(language : String) {
         Bundle.once_action
         let rtl = LanguageManager.isCurrentLanguageRTL()
         if rtl {
@@ -63,9 +63,4 @@ extension Bundle {
 //        objc_setAssociatedObject([NSBundle mainBundle], &kBundleKey, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
 }
-class LanguageManager {
-    
-    static func isCurrentLanguageRTL() -> Bool {
-        return true
-    }
-}
+

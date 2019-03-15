@@ -15,6 +15,22 @@ class ViewController: UIViewController {
         title = L10n.hello
     }
 
-
+    @IBAction func didPressEnglish(_ sender: Any) {
+        LanguageManager.currentLanguage = "en"
+        reloadRootView()
+    }
+    
+    @IBAction func didPressArabic(_ sender: Any) {
+        LanguageManager.currentLanguage = "ar"
+        reloadRootView()
+    }
+    
+    private func reloadRootView() {
+        
+        if let appDelegate = UIApplication.shared.delegate {
+            let initialStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+            appDelegate.window??.rootViewController = initialStoryBoard.instantiateInitialViewController()
+        }
+    }
 }
 

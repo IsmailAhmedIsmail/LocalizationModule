@@ -1,3 +1,9 @@
 
 /* Class = "UILabel"; text = "Sentence"; ObjectID = "FsN-hF-K8P"; */
-"FsN-hF-K8P.text" = "";
+"FsN-hF-K8P.text" = "جملة";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "tu9-6C-pCz"; */
+"tu9-6C-pCz.normalTitle" = "العربية";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "BCb-rQ-TU4"; */
+"BCb-rQ-TU4.normalTitle" = "الانجليزية";
