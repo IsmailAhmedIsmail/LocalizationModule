@@ -23,7 +23,7 @@ class BundleEx : Bundle {
 
 extension Bundle {
     static let once_action : Void = {
-        object_setClass(Bundle.main, object_getClass(BundleEx())!)
+        object_setClass(Bundle.main, BundleEx.self)
     }()
     static func setLanguage(language : String) {
         Bundle.once_action
