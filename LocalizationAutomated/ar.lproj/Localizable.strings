@@ -1,3 +1,6 @@
 
 /* No comment provided by engineer. */
 "Hello" = "اهلا";
+
+/*The warning image*/
+"images.warning" = "warning_ar";

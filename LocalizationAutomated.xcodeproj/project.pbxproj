@@ -13,6 +13,7 @@
 		ECA2AB3B223C083300F53525 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2AB3A223C083300F53525 /* LanguageManager.swift */; };
 		ECA2AB3D223C337E00F53525 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2AB3C223C337E00F53525 /* Application.swift */; };
 		ECA2AB3F223C33A900F53525 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2AB3E223C33A900F53525 /* main.swift */; };
+		ECA2AB4B223C467A00F53525 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = ECA2AB4A223C467A00F53525 /* Localizable.stringsdict */; };
 		ECAC55F3223877A3000F5D6C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECAC55F5223877A3000F5D6C /* Localizable.strings */; };
 		ECCEB03E22387654003F428B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEB03D22387654003F428B /* AppDelegate.swift */; };
 		ECCEB04022387654003F428B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEB03F22387654003F428B /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		ECA2AB3A223C083300F53525 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		ECA2AB3C223C337E00F53525 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		ECA2AB3E223C33A900F53525 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ECA2AB4A223C467A00F53525 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		ECAC55EF22387788000F5D6C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		ECAC55F022387788000F5D6C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		ECAC55F4223877A3000F5D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				ECF8C48F2238791000E4B5EA /* BartyCrouch.swift */,
 				ECF8C4912238799E00E4B5EA /* Strings.swift */,
 				EC6D010A22387FA30040BBFD /* InfoPlist.strings */,
+				ECA2AB4A223C467A00F53525 /* Localizable.stringsdict */,
 			);
 			path = LocalizationAutomated;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				ECCEB04522387654003F428B /* Assets.xcassets in Resources */,
 				ECCEB04322387654003F428B /* Main.storyboard in Resources */,
 				EC6D010822387FA30040BBFD /* InfoPlist.strings in Resources */,
+				ECA2AB4B223C467A00F53525 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

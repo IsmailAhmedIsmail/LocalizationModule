@@ -1,3 +1,6 @@
 
 /* No comment provided by engineer. */
 "Hello" = "Hello";
+
+/*The warning image*/
+"images.warning" = "warning";

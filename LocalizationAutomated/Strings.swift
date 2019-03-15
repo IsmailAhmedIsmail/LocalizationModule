@@ -12,7 +12,12 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name
 internal enum L10n {
   /// Hello
-  internal static let hello = L10n.tr("Localizable", "Hello")
+  internal static var hello: String { return L10n.tr("Localizable", "Hello") }
+
+  internal enum Images {
+    /// warning
+    internal static var warning: String { return L10n.tr("Localizable", "images.warning") }
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name

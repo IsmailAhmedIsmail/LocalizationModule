@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var warningImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = L10n.hello
+        warningImageView.image = UIImage(named: L10n.Images.warning)
     }
 
     @IBAction func didPressEnglish(_ sender: Any) {

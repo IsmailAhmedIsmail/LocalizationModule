@@ -5,3 +5,5 @@ strings:
   outputs:
     - templateName: structured-swift4
       output: Strings.swift
+      params:
+        localizeFunction: NSLocalizedString
