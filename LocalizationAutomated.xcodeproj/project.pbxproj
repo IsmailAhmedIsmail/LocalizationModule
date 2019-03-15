@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4DD6CF49117D93795A9D37 /* Pods_LocalizationAutomated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43F39D5DCDA7CDC0E9CD49 /* Pods_LocalizationAutomated.framework */; };
+		EC6D010822387FA30040BBFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC6D010A22387FA30040BBFD /* InfoPlist.strings */; };
+		ECAC55F3223877A3000F5D6C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECAC55F5223877A3000F5D6C /* Localizable.strings */; };
 		ECCEB03E22387654003F428B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEB03D22387654003F428B /* AppDelegate.swift */; };
 		ECCEB04022387654003F428B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEB03F22387654003F428B /* ViewController.swift */; };
 		ECCEB04322387654003F428B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCEB04122387654003F428B /* Main.storyboard */; };
 		ECCEB04522387654003F428B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEB04422387654003F428B /* Assets.xcassets */; };
 		ECCEB04822387654003F428B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCEB04622387654003F428B /* LaunchScreen.storyboard */; };
+		ECF8C4902238791000E4B5EA /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8C48F2238791000E4B5EA /* BartyCrouch.swift */; };
+		ECF8C4922238799E00E4B5EA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8C4912238799E00E4B5EA /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1810139FA62C70B28579FFB2 /* Pods-LocalizationAutomated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizationAutomated.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizationAutomated/Pods-LocalizationAutomated.release.xcconfig"; sourceTree = "<group>"; };
+		1D43F39D5DCDA7CDC0E9CD49 /* Pods_LocalizationAutomated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizationAutomated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A448F691C5D7642550EC92DB /* Pods-LocalizationAutomated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizationAutomated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizationAutomated/Pods-LocalizationAutomated.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6D010922387FA30040BBFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC6D010B22387FAD0040BBFD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECAC55EF22387788000F5D6C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		ECAC55F022387788000F5D6C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		ECAC55F4223877A3000F5D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ECAC55F6223877A4000F5D6C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ECCEB03A22387654003F428B /* LocalizationAutomated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationAutomated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCEB03D22387654003F428B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCEB03F22387654003F428B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		ECCEB04422387654003F428B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCEB04722387654003F428B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCEB04922387654003F428B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF8C48F2238791000E4B5EA /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
+		ECF8C4912238799E00E4B5EA /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4DD6CF49117D93795A9D37 /* Pods_LocalizationAutomated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				ECCEB03C22387654003F428B /* LocalizationAutomated */,
 				ECCEB03B22387654003F428B /* Products */,
+				ECCEB04F223876A1003F428B /* Frameworks */,
+				F8D2FBCED537A6C25A063FEB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +79,29 @@
 				ECCEB04422387654003F428B /* Assets.xcassets */,
 				ECCEB04622387654003F428B /* LaunchScreen.storyboard */,
 				ECCEB04922387654003F428B /* Info.plist */,
+				ECAC55F5223877A3000F5D6C /* Localizable.strings */,
+				ECF8C48F2238791000E4B5EA /* BartyCrouch.swift */,
+				ECF8C4912238799E00E4B5EA /* Strings.swift */,
+				EC6D010A22387FA30040BBFD /* InfoPlist.strings */,
 			);
 			path = LocalizationAutomated;
+			sourceTree = "<group>";
+		};
+		ECCEB04F223876A1003F428B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D43F39D5DCDA7CDC0E9CD49 /* Pods_LocalizationAutomated.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D2FBCED537A6C25A063FEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A448F691C5D7642550EC92DB /* Pods-LocalizationAutomated.debug.xcconfig */,
+				1810139FA62C70B28579FFB2 /* Pods-LocalizationAutomated.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +111,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCEB04C22387654003F428B /* Build configuration list for PBXNativeTarget "LocalizationAutomated" */;
 			buildPhases = (
+				E99F6F386BD046688398EC5E /* [CP] Check Pods Manifest.lock */,
+				ECAC55EE2238773A000F5D6C /* BartyCrouch Script */,
+				ECF8C48E2238789100E4B5EA /* SwiftGen Script */,
 				ECCEB03622387654003F428B /* Sources */,
 				ECCEB03722387654003F428B /* Frameworks */,
 				ECCEB03822387654003F428B /* Resources */,
@@ -96,6 +139,11 @@
 				TargetAttributes = {
 					ECCEB03922387654003F428B = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -106,6 +154,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = ECCEB03122387654003F428B;
 			productRefGroup = ECCEB03B22387654003F428B /* Products */;
@@ -123,12 +172,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCEB04822387654003F428B /* LaunchScreen.storyboard in Resources */,
+				ECAC55F3223877A3000F5D6C /* Localizable.strings in Resources */,
 				ECCEB04522387654003F428B /* Assets.xcassets in Resources */,
 				ECCEB04322387654003F428B /* Main.storyboard in Resources */,
+				EC6D010822387FA30040BBFD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E99F6F386BD046688398EC5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizationAutomated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAC55EE2238773A000F5D6C /* BartyCrouch Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "BartyCrouch Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which bartycrouch > /dev/null; then\nbartycrouch update -x\nbartycrouch lint -x\nelse\necho \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi\n";
+		};
+		ECF8C48E2238789100E4B5EA /* SwiftGen Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftGen Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which $PODS_ROOT/SwiftGen/bin/swiftgen > /dev/null; then\n$PODS_ROOT/SwiftGen/bin/swiftgen\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECCEB03622387654003F428B /* Sources */ = {
@@ -137,16 +241,37 @@
 			files = (
 				ECCEB04022387654003F428B /* ViewController.swift in Sources */,
 				ECCEB03E22387654003F428B /* AppDelegate.swift in Sources */,
+				ECF8C4922238799E00E4B5EA /* Strings.swift in Sources */,
+				ECF8C4902238791000E4B5EA /* BartyCrouch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EC6D010A22387FA30040BBFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6D010922387FA30040BBFD /* en */,
+				EC6D010B22387FAD0040BBFD /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECAC55F5223877A3000F5D6C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAC55F4223877A3000F5D6C /* en */,
+				ECAC55F6223877A4000F5D6C /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		ECCEB04122387654003F428B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ECCEB04222387654003F428B /* Base */,
+				ECAC55EF22387788000F5D6C /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +280,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECCEB04722387654003F428B /* Base */,
+				ECAC55F022387788000F5D6C /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,6 +408,7 @@
 		};
 		ECCEB04D22387654003F428B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A448F691C5D7642550EC92DB /* Pods-LocalizationAutomated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +427,7 @@
 		};
 		ECCEB04E22387654003F428B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1810139FA62C70B28579FFB2 /* Pods-LocalizationAutomated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

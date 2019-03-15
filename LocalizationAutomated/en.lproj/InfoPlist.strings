@@ -1,0 +1,11 @@
+
+/* 
+  InfoPlist.strings
+  LocalizationAutomated
+
+  Created by Ismail Ahmed on 3/13/19.
+  Copyright © 2019 Ismail Ahmed. All rights reserved.
+*/
+"CFBundleDisplayName" = "LocalizationAutomated";
+
+"CFBundleName" = "LocalizationAutomated";
