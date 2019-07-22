@@ -13,6 +13,13 @@ import Foundation
 internal enum L10n {
   /// Hello
   internal static var hello: String { return L10n.tr("Localizable", "Hello") }
+  /// Title
+  internal static var ourTitle: String { return L10n.tr("Localizable", "OurTitle") }
+
+  internal enum Ragab {
+    /// ragab
+    internal static var ragaboolean: String { return L10n.tr("Localizable", "Ragab.ragaboolean") }
+  }
 
   internal enum Images {
     /// warning

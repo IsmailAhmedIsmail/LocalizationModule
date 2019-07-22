@@ -11,11 +11,34 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var warningImageView: UIImageView!
+    @IBOutlet weak var arrowImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = L10n.hello
         warningImageView.image = UIImage(named: L10n.Images.warning)
+        title = L10n.Ragab.ragaboolean
+        
+        // using date formatter
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        let _ = formatter.string(from: Date())
+        
+        // applying custom localized format
+        let dateFormat = "dMY"
+        let _ = formatter.setLocalizedDateFormatFromTemplate(dateFormat)
+        
+        
+        // using date components and its formatter
+        var dateComponents = DateComponents()
+        let componentsFormatter = DateComponentsFormatter()
+        dateComponents.month = 4
+        dateComponents.year = 5
+        let _ = componentsFormatter.string(from: dateComponents)
+        
+        
+        // flipping image programatically
+        arrowImageView.image = #imageLiteral(resourceName: "arrow").imageFlippedForRightToLeftLayoutDirection()
     }
 
     @IBAction func didPressEnglish(_ sender: Any) {
