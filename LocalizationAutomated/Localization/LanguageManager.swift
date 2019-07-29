@@ -20,7 +20,7 @@ class LanguageManager {
     
     static func persistLanguage() {
         UserDefaults.standard.set(currentLanguage, forKey: languageSaveKey)
-        UserDefaults.standard.set(currentLanguage, forKey: "AppleLanguages")
+        UserDefaults.standard.set([currentLanguage], forKey: "AppleLanguages")
         Bundle.setLanguage(language: currentLanguage)
     }
     
