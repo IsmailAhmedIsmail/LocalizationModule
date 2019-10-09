@@ -15,6 +15,8 @@ internal enum L10n {
   internal static var hello: String { return L10n.tr("Localizable", "Hello") }
   /// Title
   internal static var ourTitle: String { return L10n.tr("Localizable", "OurTitle") }
+  /// test
+  internal static var test: String { return L10n.tr("Localizable", "test") }
 
   internal enum Ragab {
     /// ragab
@@ -34,9 +36,15 @@ internal enum L10n {
 extension L10n {
   private static func tr(_ table: String, _ key: String, _ args: CVarArg...) -> String {
     // swiftlint:disable:next nslocalizedstring_key
-    let format = NSLocalizedString(key, tableName: table, bundle: Bundle(for: BundleToken.self), comment: "")
+    let format = NSLocalizedString(key, tableName: table, bundle: BundleToken.bundle, comment: "")
     return String(format: format, locale: Locale.current, arguments: args)
   }
 }
 
-private final class BundleToken {}
+// swiftlint:disable convenience_type
+private final class BundleToken {
+  static let bundle: Bundle = {
+    Bundle(for: BundleToken.self)
+  }()
+}
+// swiftlint:enable convenience_type

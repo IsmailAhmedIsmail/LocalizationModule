@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         title = L10n.hello
         warningImageView.image = UIImage(named: L10n.Images.warning)
         title = L10n.Ragab.ragaboolean
-        
+        title = L10n.test
         // using date formatter
         let formatter = DateFormatter()
         formatter.dateStyle = .short

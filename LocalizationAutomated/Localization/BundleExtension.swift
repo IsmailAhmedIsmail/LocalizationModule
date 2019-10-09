@@ -34,8 +34,6 @@ extension Bundle {
         } else {
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
-        UserDefaults.standard.set(rtl, forKey: "AppleTextDirection")
-        UserDefaults.standard.set(rtl, forKey: "NSForceRightToLeftWritingDirection")
         
         let value = Bundle(path: Bundle.main.path(forResource: language, ofType: "lproj")!)
         
